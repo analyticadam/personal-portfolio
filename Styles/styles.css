@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hero Section */
+header {
+  background: linear-gradient(to right, #0066cc, #003366);
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+header .btn {
+  background: white;
+  color: #003366;
+  font-weight: bold;
+  border: none;
+}
+
+/* Section Titles */
+section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Projects Section */
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #0066cc;
+}
+
+/* Skills Section */
+#skills h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+/* Contact Section */
+#contact {
+  background: #333;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact .btn {
+  background: #0066cc;
+  color: white;
+  font-weight: bold;
+}
