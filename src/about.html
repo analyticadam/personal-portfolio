@@ -1,114 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>About Adam Farley</title>
-		<!-- Bootstrap CSS -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-		/>
-		<!-- Font Awesome for Icons -->
-		<link
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="../Styles/styles.css" />
-	</head>
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container">
-				<a class="navbar-brand" href="../index.html">Adam Farley</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNav"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="..//index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="..//src/resume.html">Resume</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="..//src/projects.html">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="..//src/about.html">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="..//src/contact.html">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Adam Farley</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Styles/styles.css" />
+    <style>
+      .profile-photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #0066cc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Adam Farley</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../src/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-		<!-- About Section -->
-		<section id="about" class="py-5 bg-light">
-			<div class="container">
-				<h2 class="text-center">About Me</h2>
-				<p class="text-center">
-					Hi, I’m Adam Farley, a Junior Front-End Developer passionate about
-					creating responsive and user-friendly web applications. I transitioned
-					into software engineering after a successful career in HR and
-					logistics, bringing strong problem-solving and analytical skills to my
-					work.
-				</p>
-				<p class="text-center">
-					I specialize in front-end development with skills in HTML, CSS,
-					JavaScript, React, and Bootstrap. I enjoy building applications that
-					solve real-world problems and am eager to collaborate on impactful
-					projects.
-				</p>
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
 
-				<!-- Skills Section -->
-				<div class="row text-center mt-4">
-					<div class="col-md-4">
-						<h4><i class="fas fa-code"></i> Front-End</h4>
-						<p>
-							<i class="fab fa-html5 text-danger"></i> HTML<br />
-							<i class="fab fa-css3-alt text-primary"></i> CSS<br />
-							<i class="fab fa-js text-warning"></i> JavaScript<br />
-							<i class="fab fa-react text-info"></i> React<br />
-							<i class="fas fa-mobile-alt"></i> Bootstrap
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h4><i class="fas fa-server"></i> Back-End</h4>
-						<p>
-							<i class="fab fa-node text-success"></i> Node.js<br />
-							<i class="fas fa-database"></i> MongoDB<br />
-							<i class="fas fa-network-wired"></i> Express.js
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h4><i class="fas fa-tools"></i> Tools</h4>
-						<p>
-							<i class="fab fa-git-alt text-orange"></i> Git<br />
-							<i class="fab fa-github"></i> GitHub<br />
-							<i class="fas fa-code text-info"></i> Visual Studio Code<br />
-							<i class="fas fa-tasks"></i> Jira<br />
-							<i class="fas fa-trello"></i> Trello
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+        <!-- Photo and Bio Section -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-4 text-center mb-4 mb-md-0">
+            <img
+              src="../Images/profile-photo.jpg"
+              alt="Adam Farley"
+              class="profile-photo"
+            />
+          </div>
+          <div class="col-md-8">
+            <p>
+              Hi, I'm Adam Farley, a MERN Stack Developer passionate about
+              creating responsive and user-friendly web applications. I
+              transitioned into software engineering after a successful career
+              in HR and logistics, bringing strong problem-solving and
+              analytical skills to my work.
+            </p>
+            <p>
+              I specialize in full-stack development with skills in HTML, CSS,
+              JavaScript, React, Node.js, Express, and MongoDB. I enjoy building
+              applications that solve real-world problems and am eager to
+              collaborate on impactful projects.
+            </p>
+          </div>
+        </div>
 
-		<!-- Footer -->
-		<footer class="bg-dark text-white py-3 text-center">
-			<p class="mb-0">&copy; 2024 Adam Farley. All Rights Reserved.</p>
-		</footer>
+        <!-- Skills Section -->
+        <div class="row text-center mt-4">
+          <div class="col-md-4">
+            <h4><i class="fas fa-code"></i> Front-End</h4>
+            <p>
+              <i class="fab fa-html5 text-danger"></i> HTML<br />
+              <i class="fab fa-css3-alt text-primary"></i> CSS<br />
+              <i class="fab fa-js text-warning"></i> JavaScript<br />
+              <i class="fab fa-react text-info"></i> React<br />
+              <i class="fas fa-mobile-alt"></i> Bootstrap
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4><i class="fas fa-server"></i> Back-End</h4>
+            <p>
+              <i class="fab fa-node text-success"></i> Node.js<br />
+              <i class="fas fa-database"></i> MongoDB<br />
+              <i class="fas fa-network-wired"></i> Express.js
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4><i class="fas fa-tools"></i> Tools</h4>
+            <p>
+              <i class="fab fa-git-alt text-orange"></i> Git<br />
+              <i class="fab fa-github"></i> GitHub<br />
+              <i class="fas fa-code text-info"></i> Visual Studio Code<br />
+              <i class="fas fa-tasks"></i> Jira<br />
+              <i class="fas fa-trello"></i> Trello
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!-- Bootstrap JS -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-	</body>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 text-center">
+      <p class="mb-0">&copy; 2024 Adam Farley. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
