@@ -1,91 +1,109 @@
-/* General Styles */
-body {
-  font-family: "Roboto", Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2 {
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* Navbar */
-.navbar {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-/* Hero Section */
-header {
-  background: linear-gradient(to right, #0066cc, #003366);
-  color: white;
-}
-
-header h1 {
-  font-size: 2.5rem;
-}
-
-header p {
-  font-size: 1.2rem;
-}
-
-header .btn {
-  background: white;
-  color: #003366;
-  font-weight: bold;
-  border: none;
-}
-
-/* Section Titles */
-section h2 {
-  margin-bottom: 20px;
-  font-size: 2rem;
-  color: #333;
-}
-
-/* Projects Section */
+/* General Card Styling */
 .card {
-  border: none;
-  transition: transform 0.2s;
+	border: none;
+	transition: transform 0.2s, box-shadow 0.2s;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .card:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling for Cards */
+.card-img-top {
+	width: 100%;
+	height: 200px; /* Consistent height for all card images */
+	object-fit: cover; /* Prevents stretching and maintains aspect ratio */
+	border-bottom: 2px solid #0066cc;
+}
+
+/* Card Body Styling */
+.card-body {
+	padding: 20px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* Aligns text and buttons */
 }
 
 .card-title {
-  font-weight: bold;
-  color: #0066cc;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #0066cc;
+	margin-bottom: 10px;
 }
 
-/* Skills Section */
-#skills h4 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #0066cc;
+.card-text {
+	font-size: 1rem;
+	color: #555;
+	margin-bottom: 15px;
 }
 
-/* Contact Section */
-#contact {
-  background: #333;
+/* Button Styling */
+.btn {
+	padding: 10px 15px;
+	font-weight: bold;
+	border: none;
+	transition: background-color 0.3s ease;
 }
 
-#contact h2 {
-  color: white;
+.btn-primary {
+	background-color: #0066cc;
+	color: white;
 }
 
-#contact .btn {
-  background: #0066cc;
-  color: white;
-  font-weight: bold;
+.btn-primary:hover {
+	background-color: #004c99;
+}
+
+.btn-secondary {
+	background-color: #003366;
+	color: white;
+}
+
+.btn-secondary:hover {
+	background-color: #002244;
+}
+
+/* Button Styling */
+.btn {
+	padding: 10px 15px;
+	font-weight: bold;
+	border: none;
+	transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+	background-color: #0066cc;
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: #004c99;
+}
+
+.btn-secondary {
+	background-color: #003366;
+	color: white;
+}
+
+.btn-secondary:hover {
+	background-color: #002244;
+}
+
+/* General Styling for Centering */
+.col-md-6 {
+	display: flex;
+	justify-content: center; /* Centers the card horizontally */
+	align-items: center; /* Centers the card vertically, if needed */
+	flex-direction: column;
+}
+
+.card {
+	max-width: 500px; /* Set a maximum width to ensure the card doesn’t expand too much */
+	margin: 0 auto; /* Additional safety to center within its container */
 }
